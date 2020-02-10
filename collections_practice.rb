@@ -24,7 +24,9 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-array
+  array.map do |word|
+    word[3] = "$"
+  end
 end
 
 def find_a(array)
@@ -33,4 +35,8 @@ end
 
 def sum_array(array)
 array.inject(0){|a,b| a+b}
+end
+
+def add_s(array)
+
 end
