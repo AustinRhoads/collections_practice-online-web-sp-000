@@ -28,5 +28,5 @@ array
 end
 
 def find_a(array)
-  array.select?{|w| w.starts_with?(a)}
+  array.select{|w| w.starts_with?(a)}
 end
