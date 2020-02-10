@@ -49,7 +49,9 @@ array.each_with_index.map do |el, index|
 end
 
  def swap_elements_from_to(array, i, x)
-array[i] = array[x]
-array[x] = array[i]
+ a = array[x]
+ b = array[i]
+ array[x] = b
+  array[i] = a 
 return array
  end
