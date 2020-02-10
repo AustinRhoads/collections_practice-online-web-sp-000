@@ -52,6 +52,6 @@ end
  a = array[x]
  b = array[i]
  array[x] = b
-  array[i] = a 
+  array[i] = a
 return array
  end
