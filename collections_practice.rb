@@ -39,8 +39,10 @@ end
 
 def add_s(array)
 array.each_with_index.map do |el, index|
-  if index != 2
-    el = el + "!"
+  if index != 1
+    el = el + "s"
+  else
+    el = el
     end
   end
 end
