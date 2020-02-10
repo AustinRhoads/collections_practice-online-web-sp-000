@@ -41,5 +41,6 @@ def add_s(array)
 array.each_with_index.map do |el, index|
   if index != 2
     el = el + "!"
+    end
   end
 end
