@@ -38,5 +38,7 @@ array.inject(0){|a,b| a+b}
 end
 
 def add_s(array)
-
+array.each_with_index.map do |el, index|
+  if index != 2
+    el = el + "!"
 end
